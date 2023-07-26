@@ -1,0 +1,87 @@
+{
+  "vans": [
+    {
+      "id": 1,
+      "name": "Van1",
+      "image": "../assets/images/1.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse interdum consectetur libero id faucibus nisl. Metus vulputate eu scelerisque felis imperdiet proin. Sed augue lacus viverra vitae congue eu. Nec ultrices dui sapien eget mi proin sed libero. Ante metus dictum at tempor commodo ullamcorper a. Ac turpis egestas sed tempus.",
+      "category": "simple",
+      "categoryColor": "bg-orange-500",
+      "price": 60.99
+    },
+    {
+      "id": 2,
+      "name": "Van2",
+      "image": "../assets/images/2.jpg",
+      "description": "scelerisque felis imperdiet proin. Sed augue lacus viverra vitae congue eu. Nec ultrices dui sapien eget mi proin sed libero. Ante metus dictum at tempor commodo ullamcorper a. Ac turpis egestas sed tempus. Consectetur adipiscing elit ut aliquam purus. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Libero nunc consequat interdum varius sit amet mattis. Eget mauris pharetra et ultrices neque ornare.",
+      "category": "luxury",
+      "categoryColor": "bg-black",
+      "price": 89.99
+    },
+    {
+      "id": 3,
+      "name": "Van3",
+      "image": "../assets/images/3.jpg",
+      "description": "Sem fringilla ut morbi tincidunt augue. Dui ut ornare lectus sit amet est placerat in. Faucibus in ornare quam viverra orci sagittis eu. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus.",
+      "category": "simple",
+      "categoryColor": "bg-orange-500",
+      "price": 45.55
+    },
+    {
+      "id": 4,
+      "name": "Van4",
+      "image": "../assets/images/4.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat pellentesque adipiscing commodo elit at. Porttitor eget dolor morbi non arcu risus quis. Metus aliquam eleifend mi in. Nulla aliquet porttitor lacus luctus accumsan tortor. Urna nunc id cursus metus. Et malesuada fames ac turpis egestas integer.",
+      "category": "luxury",
+      "categoryColor": "bg-black",
+      "price": 79.99
+    },
+    {
+      "id": 5,
+      "name": "Van5",
+      "image": "../assets/images/5.jpeg",
+      "description": "Orci phasellus egestas tellus rutrum tellus pellentesque. Sollicitudin ac orci phasellus egestas tellus rutrum. Viverra aliquet eget sit amet tellus cras adipiscing. Eu turpis egestas pretium aenean pharetra. Massa enim nec dui nunc mattis enim ut tellus elementum. Lectus magna fringilla urna porttitor. Ac feugiat sed lectus vestibulum mattis ullamcorper. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim.",
+      "category": "rugged",
+      "categoryColor": "bg-emerald-700",
+      "price": 60.55
+    },
+    {
+      "id": 6,
+      "name": "Van6",
+      "image": "../assets/images/6.jpg",
+      "description": "Lectus magna fringilla urna porttitor. Ac feugiat sed lectus vestibulum mattis ullamcorper. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Aliquet eget sit amet tellus cras adipiscing.",
+      "category": "rugged",
+      "categoryColor": "bg-emerald-700",
+      "price": 35.99
+    }
+  ],
+  "listedVans": [
+    {
+      "id": 1,
+      "name": "Van1",
+      "image": "/assets/images/1.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse interdum consectetur libero id faucibus nisl. Metus vulputate eu scelerisque felis imperdiet proin. Sed augue lacus viverra vitae congue eu. Nec ultrices dui sapien eget mi proin sed libero. Ante metus dictum at tempor commodo ullamcorper a. Ac turpis egestas sed tempus.",
+      "category": "simple",
+      "categoryColor": "bg-orange-500",
+      "price": 60.99
+    },
+    {
+      "id": 2,
+      "name": "Van4",
+      "image": "/assets/images/4.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat pellentesque adipiscing commodo elit at. Porttitor eget dolor morbi non arcu risus quis. Metus aliquam eleifend mi in. Nulla aliquet porttitor lacus luctus accumsan tortor. Urna nunc id cursus metus. Et malesuada fames ac turpis egestas integer.",
+      "category": "luxury",
+      "categoryColor": "bg-black",
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "name": "Van6",
+      "image": "/assets/images/6.jpg",
+      "description": "Lectus magna fringilla urna porttitor. Ac feugiat sed lectus vestibulum mattis ullamcorper. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Aliquet eget sit amet tellus cras adipiscing.",
+      "category": "rugged",
+      "categoryColor": "bg-emerald-700",
+      "price": 35.99
+    }
+  ]
+}
