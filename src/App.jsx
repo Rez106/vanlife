@@ -7,9 +7,8 @@ import {
 import Layout from "./components/Layout/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Vans, { loader as vansLoader } from "./pages/Vans.jsx";
+import { loader as vansLoader } from "./pages/Vans.jsx";
 import VanDetail, { loader as vanDetailLoader } from "./pages/VanDetail.jsx";
-import Host from "./pages/Host.jsx";
 import Dashboard, {
   loader as dashboardLoader,
 } from "./components/HostDetail/Dashboard.jsx";
@@ -23,13 +22,18 @@ import HostVanDetail, {
 import HostVanPrice from "./components/HostDetail/HostVanPrice.jsx";
 import HostVanPhotos from "./components/HostDetail/HostVanPhotos.jsx";
 import Reviews from "./components/HostDetail/Reviews.jsx";
-import NotFound from "./pages/NotFound.jsx";
 import Error from "./components/UI/Error.jsx";
 import Login, {
   loader as loginLoader,
   action as loginAction,
 } from "./pages/Login.jsx";
 import { requireAuth } from "./utils/utils.js";
+import React, { Suspense } from "react";
+import Fallback from "./pages/Fallback.jsx";
+
+const Vans = React.lazy(() => import("./pages/Vans.jsx"));
+const Host = React.lazy(() => import("./pages/Host.jsx"));
+const NotFound = React.lazy(() => import("./pages/NotFound.jsx"));
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -90,7 +94,11 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <Suspense fallback={<Fallback />}>
+      <RouterProvider router={router} />
+    </Suspense>
+  );
 }
 
 export default App;
